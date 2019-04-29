@@ -8,7 +8,7 @@ module.exports = {
 		app: './src/app.js'
 	},
 	output: {
-		filename: '[name].[contenthash].bundle'
+		filename: '[name].[contenthash].bundle.js'
 	},
 	mode: 'development',
 	plugins: [
