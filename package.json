@@ -1,0 +1,10 @@
+{
+  "name": "Javamon.js",
+  "version": "0.0.1",
+  "description": "Pokemon-like engine in js",
+  "scripts": {
+  	"build": "webpack",
+  	"watch": "webpack --watch"
+  },
+  "author": "mitchelldanice@gmail.com"
+}
