@@ -3,8 +3,12 @@
   "version": "0.0.1",
   "description": "Pokemon-like engine in js",
   "scripts": {
-  	"build": "webpack",
-  	"watch": "webpack --watch"
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
-  "author": "mitchelldanice@gmail.com"
+  "author": "mitchelldanice@gmail.com",
+  "devDependencies": {
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  }
 }
