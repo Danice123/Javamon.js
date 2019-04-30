@@ -11,12 +11,20 @@ module.exports = {
 		filename: '[name].[contenthash].bundle.js'
 	},
 	mode: 'development',
+	resolve: {
+		modules: [
+			path.resolve('./src'),
+			path.resolve('./node_modules')
+		]
+	},
 	plugins: [
 		new CleanWebpackPlugin(),
+		new webpack.ProvidePlugin({
+			PIXI: 'pixi.js'
+		}),
 		new HtmlWebpackPlugin({
 			title: 'Javamon',
 			chunks: ['app']
 		})
 	]
-
 };
