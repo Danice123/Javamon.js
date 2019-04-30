@@ -1,4 +1,6 @@
+import Display from 'display/Display.js'
 
-$(document).ready(function () {
-	console.log("test");
-});
+window.onload = function () {
+	var display = new Display(160, 144);
+	document.body.appendChild(display.app.view);
+};
